@@ -19,11 +19,13 @@
     <div class="go-top" title="Lên đầu trang"><span></span><span></span></div>
     <header>
       <section class="menu wow">
+        <div class="toggleMenu d-block d-md-none"><i class="mdi mdi-menu"></i></div>
+        <div class="search-btn d-block d-md-none"><i class="mdi mdi-magnify"></i></div>
         <div class="container">
           <div class="logo"><a href="index.html"><img src="../img/logo.png"/></a></div>
           <div class="main-menu">
             <ul class="nav">
-              <div class="nav-close"><i class="mdi mdi-close d-block d-xl-none"></i></div>
+              <div class="nav-close"><i class="mdi mdi-close d-block d-md-none"></i></div>
               <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
               <li class="nav-item"><a class="nav-link" href="ban.html">
                    Bán<i class="mdi mdi-menu-down"></i></a>
@@ -56,13 +58,45 @@
       <div class="overlay-menu"></div>
     </header>
     <article>
+      <section class="page-slider slider">
+        <div class="owl-carousel slider-carousel owl-theme">
+          <div class="item"><a href="#"><img src="../img/slider-1.png"/></a></div>
+          <div class="item"><a href="#"><img src="../img/slider-1.png"/></a></div>
+        </div>
+        <div class="search">
+          <div class="container">
+            <h1>Tìm kiếm ngay cho mình một căn hộ !</h1>
+            <form>
+              <input type="text" placeholder="Nhập từ khóa . . ."/>
+              <select>
+                <option>Bán</option>
+                <option>Cho thuê</option>
+              </select>
+              <select>
+                <option>Loại BĐS</option>
+                <option>Căn hộ cho thuê</option>
+                <option>Căn hộ bán</option>
+              </select>
+              <select>
+                <option>Tỉnh / Thành</option>
+                <option>TP Hồ Chí Minh</option>
+              </select>
+              <select>
+                <option>Quận / Huyện</option>
+                <option>Quận 2</option>
+              </select>
+              <button type="submit">Tìm kiếm</button>
+            </form>
+          </div>
+        </div>
+      </section>
       <section class="bread-crumb">
         <div class="container">
           <div class="bc-icons">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
-                <li class="breadcrumb-item active">Giới thiệu</li>
+                <li class="breadcrumb-item active">Dịch vụ</li>
               </ol>
             </nav>
           </div>
@@ -71,14 +105,13 @@
       <section class="page-detail"> 
         <div class="container">
           <div class="title-page">
-            <h5>Về Hoàng Gia</h5>
-            <h1>Giới thiệu</h1>
+            <h3> <a>Dịch vụ</a></h3>
           </div>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, temporibus ullam! Blanditiis nihil sint ab et repudiandae ipsa, sed maiores earum? Id nostrum libero tempora a delectus sed at quis.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, temporibus ullam! Blanditiis nihil sint ab et repudiandae ipsa, sed maiores earum? Id nostrum libero tempora a delectus sed at quis.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, temporibus ullam! Blanditiis nihil sint ab et repudiandae ipsa, sed maiores earum? Id nostrum libero tempora a delectus sed at quis.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, temporibus ullam! Blanditiis nihil sint ab et repudiandae ipsa, sed maiores earum? Id nostrum libero tempora a delectus sed at quis.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, temporibus ullam! Blanditiis nihil sint ab et repudiandae ipsa, sed maiores earum? Id nostrum libero tempora a delectus sed at quis.</p><img src="../img/product-1.png"/>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, temporibus ullam! Blanditiis nihil sint ab et repudiandae ipsa, sed maiores earum? Id nostrum libero tempora a delectus sed at quis.</p><img src="../img/rent-1.png"/>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, temporibus ullam! Blanditiis nihil sint ab et repudiandae ipsa, sed maiores earum? Id nostrum libero tempora a delectus sed at quis.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, temporibus ullam! Blanditiis nihil sint ab et repudiandae ipsa, sed maiores earum? Id nostrum libero tempora a delectus sed at quis.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, temporibus ullam! Blanditiis nihil sint ab et repudiandae ipsa, sed maiores earum? Id nostrum libero tempora a delectus sed at quis.</p>
@@ -90,68 +123,39 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="about">
+              <h4>
+                 Về chúng tôi<i class="mdi mdi-chevron-down"></i></h4>
+              <ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, debitis? Animi, explicabo reprehenderit voluptatibus corrupti quibusdam ullam modi nesciunt pariatur unde fuga asperiores architecto, exercitationem aperiam quasi illum culpa? Nobis.</p>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="contact">
               <h4>
-                 thông tin liên hệ<i class="mdi mdi-chevron-down"></i></h4>
+                 Thông tin liên hệ<i class="mdi mdi-chevron-down"></i></h4>
               <ul>
-                <li><i class="mdi mdi-map-outline"></i>192/41 (số cũ E29 ) Nguyễn Oanh, Cư Xá Ba Son P.17, Q. Gò Vấp, Tp.HCM </li>
-                <li><i class="mdi mdi-deskphone"></i>(028) 5446.5679 - 2200.9858 - 6275.9112</li>
-                <li><i class="mdi mdi-email-outline"></i>euromacvietnam@gmail.com</li>
-                <li><i class="mdi mdi-note-outline"></i>Mã số thuế: 4757654</li>
+                <li><i class="mdi mdi-map-outline"></i>81 Bùi Tư Toàn, An Lạc, Bình Tân, HCM</li>
+                <li><i class="mdi mdi-deskphone"></i>0357.00.9999</li>
+                <li><i class="mdi mdi-email-outline"></i>batdongsan247.tv@gmail.com</li>
               </ul>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-sm-6">
-            <div class="link">
+          <div class="col-xl-6 col-lg-5 col-sm-12">
+            <div class="letter">
               <h4>
-                 Liên kết nhanh<i class="mdi mdi-chevron-down"></i></h4>
-              <ul>
-                <li><a href="index.html"><i class="mdi mdi-minus"></i>Trang chủ</a></li>
-                <li><a href="gioi-thieu.html"><i class="mdi mdi-minus"></i>Giới thiệu</a></li>
-                <li><a href="index.html"><i class="mdi mdi-minus"></i>Sản phẩm</a></li>
-                <li><a href="index.html"><i class="mdi mdi-minus"></i>Công trình</a></li>
-                <li><a href="index.html"><i class="mdi mdi-minus"></i>Xưởng</a></li>
-                <li><a href="index.html"><i class="mdi mdi-minus"></i>Tin mới</a></li>
-                <li><a href="index.html"><i class="mdi mdi-minus"></i>Tuyển dụng</a></li>
-                <li><a href="index.html"><i class="mdi mdi-minus"></i>Liên hệ</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-2 col-lg-4 col-sm-6">
-            <div class="policy">
-              <h4>
-                 Chính sách<i class="mdi mdi-chevron-down"></i></h4>
-              <ul>
-                <li><a href="index.html"><i class="mdi mdi-minus"></i>Chính sách ưu đãi</a></li>
-                <li><a href="gioi-thieu.html"><i class="mdi mdi-minus"></i>Chính sách bảo mật</a></li>
-                <li><a href="index.html"><i class="mdi mdi-minus"></i>Chính sách ưu đãi</a></li>
-                <li><a href="index.html"><i class="mdi mdi-minus"></i>Chính sách ưu đãi</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-sm-6">
-            <div class="news">
-              <h4>
-                 tin mới<i class="mdi mdi-chevron-down"></i></h4>
-              <div class="box-news">
-                <div class="box-news-img"><a href="chi-tiet-tin-tuc.html"><img src="../img/news-1.png"/></a></div>
-                <div class="box-news-detail">
-                  <h5> <a href="chi-tiet-tin-tuc.html">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, labore?</a></h5>
-                  <h4><i class="mdi mdi-calendar-outline"></i>20/04/2019</h4>
-                </div>
-              </div>
-              <div class="box-news">
-                <div class="box-news-img"><a href="chi-tiet-tin-tuc.html"><img src="../img/news-1.png"/></a></div>
-                <div class="box-news-detail">
-                  <h5> <a href="chi-tiet-tin-tuc.html">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, labore?</a></h5>
-                  <h4><i class="mdi mdi-calendar-outline"></i>20/04/2019</h4>
-                </div>
-              </div>
+                 Đăng ký nhận bản tin<i class="mdi mdi-chevron-down"></i></h4>
+              <form action="">
+                <input type="text" placeholder="Nhập email của bạn. . ."/>
+                <button type="submit">đăng ký</button>
+              </form>
+              <h5>Theo dõi chúng tôi qua:<span><a href="#"><i class="mdi mdi-facebook-box"></i></a><a href="#"><i class="mdi mdi-youtube"></i></a></span></h5>
             </div>
           </div>
         </div>
         <div class="copyright text-center">
-          <h5>Copyright @ 2019 MỘC KIẾN QUỐC. All Reserved. Designed by Tri Viet</h5>
+          <h5>Copyright @ 2019 Thế giới BĐS 24h. All Reserved. Designed by Tri Viet</h5>
         </div>
       </div>
     </section>

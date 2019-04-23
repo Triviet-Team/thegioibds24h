@@ -22,6 +22,11 @@ html(lang="en")
     block header
       header
         section.menu.wow
+          .toggleMenu.d-block.d-md-none
+            i.mdi.mdi-menu
+          .search-btn.d-block.d-md-none
+            i.mdi.mdi-magnify
+
           .container
             .logo
               a(href='index.html')
@@ -30,7 +35,7 @@ html(lang="en")
             .main-menu
               ul.nav
                 .nav-close
-                  i.mdi.mdi-close.d-block.d-xl-none
+                  i.mdi.mdi-close.d-block.d-md-none
                 li.nav-item
                   a.nav-link(href='index.html') Trang chủ
                 li.nav-item
@@ -88,118 +93,48 @@ html(lang="en")
         .container
           .row
             .col-xl-3.col-lg-4.col-sm-6
+              .about
+                h4 
+                  | Về chúng tôi
+                  i.mdi.mdi-chevron-down
+                ul
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, debitis? Animi, explicabo reprehenderit voluptatibus corrupti quibusdam ullam modi nesciunt pariatur unde fuga asperiores architecto, exercitationem aperiam quasi illum culpa? Nobis.
+
+            .col-xl-3.col-lg-3.col-sm-6
               .contact
                 h4 
-                  | thông tin liên hệ
+                  | Thông tin liên hệ
                   i.mdi.mdi-chevron-down
                 ul
                   li
                     i.mdi.mdi-map-outline
-                    | 192/41 (số cũ E29 ) Nguyễn Oanh, Cư Xá Ba Son P.17, Q. Gò Vấp, Tp.HCM 
+                    | 81 Bùi Tư Toàn, An Lạc, Bình Tân, HCM
 
                   li
                     i.mdi.mdi-deskphone
-                    | (028) 5446.5679 - 2200.9858 - 6275.9112
+                    | 0357.00.9999
                   li
                     i.mdi.mdi-email-outline
-                    | euromacvietnam@gmail.com
-                  li
-                    i.mdi.mdi-note-outline
-                    | Mã số thuế: 4757654
-            
-            .col-xl-3.col-lg-4.col-sm-6
-              .link
+                    | batdongsan247.tv@gmail.com
+                 
+            .col-xl-6.col-lg-5.col-sm-12
+              .letter
                 h4 
-                  | Liên kết nhanh
+                  | Đăng ký nhận bản tin
                   i.mdi.mdi-chevron-down
-                ul
-                  li
-                    a(href='index.html')
-                      i.mdi.mdi-minus
-                      | Trang chủ
-                  li
-                    a(href='gioi-thieu.html')
-                      i.mdi.mdi-minus
-                      | Giới thiệu
-                  li
-                    a(href='index.html')
-                      i.mdi.mdi-minus
-                      | Sản phẩm
-                  li
-                    a(href='index.html')
-                      i.mdi.mdi-minus
-                      | Công trình
-                  li
-                    a(href='index.html')
-                      i.mdi.mdi-minus
-                      | Xưởng
-                  li
-                    a(href='index.html')
-                      i.mdi.mdi-minus
-                      | Tin mới
-                  li
-                    a(href='index.html')
-                      i.mdi.mdi-minus
-                      | Tuyển dụng
-                  li
-                    a(href='index.html')
-                      i.mdi.mdi-minus
-                      | Liên hệ
-                  
-            .col-xl-2.col-lg-4.col-sm-6
-              .policy
-                h4 
-                  | Chính sách
-                  i.mdi.mdi-chevron-down
-                ul
-                  li
-                    a(href='index.html')
-                      i.mdi.mdi-minus
-                      | Chính sách ưu đãi
-                  li
-                    a(href='gioi-thieu.html')
-                      i.mdi.mdi-minus
-                      | Chính sách bảo mật
-                  li
-                    a(href='index.html')
-                      i.mdi.mdi-minus
-                      | Chính sách ưu đãi
-                  li
-                    a(href='index.html')
-                      i.mdi.mdi-minus
-                      | Chính sách ưu đãi
+                form(action="")
+                  input(type='text', placeholder="Nhập email của bạn. . .")
+                  button(type='submit') đăng ký
+                h5 Theo dõi chúng tôi qua:
+                  span
+                    a(href='#')
+                      i.mdi.mdi-facebook-box
+                    a(href='#')
+                      i.mdi.mdi-youtube
 
-            .col-xl-4.col-lg-4.col-sm-6
-              .news
-                h4 
-                  | tin mới
-                  i.mdi.mdi-chevron-down
-
-                .box-news
-                  .box-news-img
-                    a(href='chi-tiet-tin-tuc.html')
-                      img(src='../img/news-1.png')
-                  .box-news-detail
-                    h5  
-                      a(href='chi-tiet-tin-tuc.html')
-                        | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, labore?
-                    h4
-                      i.mdi.mdi-calendar-outline
-                      | 20/04/2019
-                .box-news
-                  .box-news-img
-                    a(href='chi-tiet-tin-tuc.html')
-                      img(src='../img/news-1.png')
-                  .box-news-detail
-                    h5  
-                      a(href='chi-tiet-tin-tuc.html')
-                        | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, labore?
-                    h4
-                      i.mdi.mdi-calendar-outline
-                      | 20/04/2019
-                
+              
           .copyright.text-center
-            h5 Copyright @ 2019 MỘC KIẾN QUỐC. All Reserved. Designed by Tri Viet
+            h5 Copyright @ 2019 Thế giới BĐS 24h. All Reserved. Designed by Tri Viet
           
 
 
