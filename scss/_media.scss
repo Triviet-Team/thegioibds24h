@@ -109,7 +109,11 @@ $main_color: #2EB24C;
 
   .page-project {
     ul.nav-tabs{
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+
       flex-wrap: wrap;
+      
 
       li {
         width: calc(100% / 3);
@@ -125,7 +129,8 @@ $main_color: #2EB24C;
       }
 
       &.active {
-        flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
 
         li {
           width: 100%;
@@ -163,7 +168,8 @@ $main_color: #2EB24C;
   }
 
   .slider img {
-    filter: brightness(1);
+    -webkit-filter: brightness(1);
+            filter: brightness(1);
   }
   
   .toggleMenu {
@@ -291,7 +297,8 @@ $main_color: #2EB24C;
               top: -33px;
               left: 15px;
               color: $main_color;
-              transform: none;
+              -webkit-transform: none;
+                      transform: none;
               border: 0;
             }
 
@@ -326,10 +333,13 @@ $main_color: #2EB24C;
     left: 0;
     width: 100%;
     height: auto;
-    transform: none;
+    -webkit-transform: none;
+            transform: none;
     background: #252525;
     padding-top: 10px;
-    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    -webkit-transition: .3s;
     transition: .3s;
 
     &.active {
@@ -338,10 +348,12 @@ $main_color: #2EB24C;
       left: 0;
       width: 100%;
       height: auto;
-      transform: none;
+      -webkit-transform: none;
+              transform: none;
       background: #252525;
       padding-top: 10px;
-      transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
 
       form {
         height: auto;
@@ -354,21 +366,25 @@ $main_color: #2EB24C;
         left: 0;
         width: 100%;
         height: auto;
-        transform: none;
+        -webkit-transform: none;
+                transform: none;
         background: #252525;
         padding-top: 10px;
-        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+                transform: translateY(-100%);
       }
 
       &.mobile {
-        transform: none;
+        -webkit-transform: none;
+                transform: none;
         opacity: 1;
         z-index: 999;
       }
     }
     
     &.mobile {
-      transform: none;
+      -webkit-transform: none;
+              transform: none;
       opacity: 1;
       z-index: 999;
     }
